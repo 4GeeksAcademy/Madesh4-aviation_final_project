@@ -40,6 +40,13 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
+To use `parse_access` in Python, install the `mdbtools` package in your Codespace:
+```bash
+sudo apt update
+sudo apt upgrade
+sudo apt install mdbtools
+```
+
 ## Project Structure
 
 ```
